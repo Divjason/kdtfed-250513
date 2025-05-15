@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .login-container {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #f4f4f4;
+  padding: 20px;
+}
+body .login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+body .login-container #loginForm {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+body .login-container #loginForm input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+body .login-container #loginForm input:focus {
+  outline: none;
+}
+body .login-container #loginForm input[type=submit] {
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+body .login-container #loginForm input[type=submit]:hover {
+  background: #0056b3;
+  color: #fff;
+}
